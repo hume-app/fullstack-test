@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "importHelpers": true,
+    "experimentalDecorators": false,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "allowJs": false,
+    "sourceMap": true,
+    "target": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "types": ["vite/client", "jest"],
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "module": "esnext",
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react"
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["./node_modules", "./dist"]
+}

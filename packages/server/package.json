@@ -1,0 +1,30 @@
+{
+  "name": "@hume/server",
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "rm -rf ./dist/*",
+    "build": "tsc --noEmit false",
+    "dev": "ts-node-dev ./src/index.ts",
+    "lint": "eslint ./src",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs-extra": "^10.0.0",
+    "isomorphic-unfetch": "^3.1.0",
+    "morgan": "^1.10.0",
+    "ramda": "^0.27.0",
+    "superstruct": "^0.15.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.11",
+    "@types/express-session": "^1.17.3",
+    "@types/fs-extra": "^9.0.13",
+    "@types/morgan": "^1.9.2",
+    "@types/node": "^15.12.2",
+    "@types/ramda": "^0.27.40",
+    "ts-node-dev": "^1.1.8"
+  }
+}
